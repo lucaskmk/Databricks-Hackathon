@@ -1,0 +1,9 @@
+bundle:
+  name: churn1insight
+
+app:
+  name: churn1insight
+  executable:
+    command:
+      - python
+      - app.py

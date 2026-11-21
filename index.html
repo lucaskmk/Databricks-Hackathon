@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churn Insight - Databricks Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; margin: 0; padding: 0; transition: background-color 0.4s ease, color 0.4s ease; }
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 10px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #334155; }
+
+        /* Light Mode Overrides */
+        body.light-mode {
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        .light-mode .bg-slate-900,
+        .light-mode .bg-slate-950,
+        .light-mode .bg-\[\#101927\],
+        .light-mode .bg-\[\#0a111a\] {
+            background-color: #ffffff !important;
+            border-color: #e2e8f0 !important;
+        }
+
+        .light-mode .bg-slate-800\/50,
+        .light-mode .bg-slate-800\/40,
+        .light-mode .bg-slate-800\/30 {
+            background-color: #f1f5f9 !important;
+            border-color: #e2e8f0 !important;
+        }
+
+        .light-mode .text-white {
+            color: #0f172a !important;
+        }
+
+        .light-mode .text-slate-400,
+        .light-mode .text-slate-500,
+        .light-mode .text-slate-300 {
+            color: #475569 !important;
+        }
+
+        .light-mode .border-slate-800,
+        .light-mode .border-slate-700 {
+            border-color: #cbd5e1 !important;
+        }
+
+        .light-mode input, 
+        .light-mode select {
+            background-color: #ffffff !important;
+            color: #0f172a !important;
+            border-color: #cbd5e1 !important;
+        }
+
+        .light-mode .shadow-xl,
+        .light-mode .shadow-2xl,
+        .light-mode .shadow-3xl {
+            shadow: 0 10px 15px -3px rgb(0 0 0 / 0.05) !important;
+        }
+    </style>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.3.1",
+        "react/": "https://esm.sh/react@18.3.1/",
+        "react-dom": "https://esm.sh/react-dom@18.3.1",
+        "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+        "@google/genai": "https://esm.sh/@google/genai@1.3.0",
+        "recharts": "https://esm.sh/recharts@2.12.7"
+      }
+    }
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen">
+    <div id="root"></div>
+    <script type="text/babel" data-type="module" data-presets="react,typescript" src="./index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "Churn Insight - Databricks Edition",
+  "description": "Enterprise-grade churn prediction using Gemini and Databricks Mosaic AI insights.",
+  "requestFramePermissions": []
+}
