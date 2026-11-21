@@ -2,11 +2,6 @@
 
 Churn prediction dashboard (React + Gemini) with a Databricks app (`app.py`, `databricks.yml`) — Databricks Hackathon.
 
-## Run locally
-
-This contains everything you need to run your app locally.
-
-
 ## Run Locally
 
 **Prerequisites:**  Node.js
