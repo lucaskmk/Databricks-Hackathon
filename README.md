@@ -6,7 +6,6 @@ Churn prediction dashboard (React + Gemini) with a Databricks app (`app.py`, `da
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1e6Iif-67bFhm7jCG4L3Nw1sfwdh-AV28
 
 ## Run Locally
 
